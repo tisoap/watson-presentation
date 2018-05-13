@@ -1,0 +1,25 @@
+{
+  "name": "assistant-example",
+  "description": "An example Node.js web app using Watson Assistant API.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tisoap/watson-presentation.git"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.16.1",
+    "watson-developer-cloud": "^3.2.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 6.9.x",
+    "npm": "> 3.10.x"
+  }
+}
